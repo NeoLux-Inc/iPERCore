@@ -37,6 +37,13 @@ DEFAULT_WINDOWS_CUDA_TORCH = {
 
 
 PRECOMPILED_TORCH_CUDA_PAIRS = {
+    "2.0.1+cu118": {
+        "torch": "2.0.1+cu118",
+        "torchvision": "0.15.2+cu118",
+        "mmcv-full": "1.7.1",
+        "mmcv-dist": f"{MMCV_DIST}/cu118/torch2.0.1/index.html"
+        # "mmcv-full": "1.2.0+torch1.7.0+cu110"
+    },
     "1.8.1+cu111": {
         "torch": "1.8.1+cu111",
         "torchvision": "0.9.1+cu111",
@@ -60,13 +67,6 @@ PRECOMPILED_TORCH_CUDA_PAIRS = {
         "torchvision": "0.8.1+cu110",
         "mmcv-full": "1.2.0",
         "mmcv-dist": f"{MMCV_DIST}/cu110/torch1.7.0/index.html"
-        # "mmcv-full": "1.2.0+torch1.7.0+cu110"
-    },
-    "2.0.1+cu118": {
-        "torch": "2.0.1+cu118",
-        "torchvision": "0.15.2+cu118",
-        "mmcv-full": "1.7.1",
-        "mmcv-dist": f"{MMCV_DIST}/cu118/torch2.0.1/index.html"
         # "mmcv-full": "1.2.0+torch1.7.0+cu110"
     },
     "1.7.0+cu102": {
